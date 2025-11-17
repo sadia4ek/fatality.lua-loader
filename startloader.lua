@@ -1,5 +1,5 @@
 local function loadFatalityGUI()
-    local modelUrl = "https://raw.githubusercontent.com/sadia4ek/fatality.lua-loader/main/loader.rbxm"
+    local modelUrl = "https://raw.githubusercontent.com/sadia4ek/fatality.lua-loader/main/fatalitygui.rbxm"
     
     local success, modelData = pcall(function()
         return game:HttpGet(modelUrl)
